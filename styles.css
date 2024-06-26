@@ -1,3 +1,22 @@
+@font-face {
+  font-family: "Figtree";
+  src: url(/assets/fonts/Figtree-VariableFont_wght.woff2);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .text-clamp-100 {
+    font-size: clamp(0.75rem, 2vw, 0.875rem);
+  }
+
+  .text-clamp-300 {
+    font-size: clamp(0.875rem, 2.33vw, 1rem);
+  }
+
+  .text-clamp-600 {
+    font-size: clamp(1.25rem, 3.33vw, 1.5rem);
+  }
+}
