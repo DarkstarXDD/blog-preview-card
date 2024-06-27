@@ -41,13 +41,15 @@ This is my solution to the [Blog Preview Card](https://www.frontendmentor.io/cha
 - Zoom the page in and out using Ctrl + Scroll wheel.
 - Tested using NVDA screen reader.
 - Viewed the site on an iPhone 11.
-- Performed Lighthouse and PageSpeed tests. ([PageSpeed Result.](https://pagespeed.web.dev/analysis/https-workit-landing-page-darkstarxdd-vercel-app/7ylu6a0i49?form_factor=mobile))
+- Performed Lighthouse and PageSpeed tests. ([PageSpeed Result.](https://pagespeed.web.dev/analysis/https-blog-preview-card-darkstarxdd-vercel-app/b5c8y1o65d?form_factor=mobile))
 
 #
 
 ### New Things Learned. 🎓
 
-- Tailwind. It's my first time using Tailwind, so I had to learn how to setup a project with it. Had to search in the [Tailwind docs](https://tailwindcss.com/) a bit to find some class names. The [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) VS Code plugin was super helpful since it shows the underlying CSS properties for each utility class.
+- It's my first time using Tailwind, so I had to learn how to setup a project with it.
+- Had to search in the [Tailwind docs](https://tailwindcss.com/) a bit to find some class names.
+- The [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) VS Code plugin was super helpful since it shows the underlying CSS properties for each utility class.
 - Also learned a bit about how to use `tailwind.config.js` file to extend the default theme to include my own custom values.
 - Using `@layer` to include my own classes.
 
