@@ -16,8 +16,8 @@ export default {
       },
 
       boxShadow: {
-        "3xl": "8px 8px",
-        "4xl": "12px 12px",
+        "3xl": "0.5rem 0.5rem",
+        "4xl": "0.9375rem 0.9375rem",
       },
     },
   },
