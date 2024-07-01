@@ -31,15 +31,17 @@ This is my solution to the [Blog Preview Card](https://www.frontendmentor.io/cha
     font-size: clamp(0.75rem, 2vw, 0.875rem);
   }
   ```
+- To make the whole card clickable, I used a pseudo element. I added the pseudo element to the `<a>` inside the `<h2>`. Then made the card component `position: relative`. Now when `top-0` `right-0` `bottom-0` `left-0` is given to the pseudo element, it will be same size as the card component.
+- Added the hover effect to the card component. So when hoverd over the card the `box-shadow` will get slightly bigger.
 
 #
 
 ### Testing and Accessibility. 🧪
 
-- Used the Responsively App to check how the site looks on various screen sizes, starting from 320 x 480 and going up to 3000 x 2000.
-- Using Firefox on desktop, changed the browser font size to extreme low and high values (9px to 56px respectively).
-- Zoom the page in and out using Ctrl + Scroll wheel.
-- Tested using NVDA screen reader.
+- Used the Responsively App to check the site's appearance on various screen sizes, from 320x480 to 3000x2000.
+- Set the browser font size on desktop to various values ranging from 9px to 56px to ensure everything on the site scales properly with the user's preferred browser font size.
+- Zoomed the page in and out using Ctrl + Scroll wheel (up to 500%).
+- Tested with the NVDA screen reader.
 - Viewed the site on an iPhone 11.
 - Performed Lighthouse and PageSpeed tests. ([PageSpeed Result.](https://pagespeed.web.dev/analysis/https-blog-preview-card-darkstarxdd-vercel-app/b5c8y1o65d?form_factor=mobile))
 
@@ -47,11 +49,11 @@ This is my solution to the [Blog Preview Card](https://www.frontendmentor.io/cha
 
 ### New Things Learned. 🎓
 
-- It's my first time using Tailwind, so I had to learn how to setup a project with it.
-- Had to search in the [Tailwind docs](https://tailwindcss.com/) a bit to find some class names.
-- The [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) VS Code plugin was super helpful since it shows the underlying CSS properties for each utility class.
-- Also learned a bit about how to use `tailwind.config.js` file to extend the default theme to include my own custom values.
-- Using `@layer` to include my own classes.
+- It's my first time using Tailwind, so had to learn how to setup a project with it.
+- Using the the [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) VS Code plugin. It was super helpful since it shows the underlying CSS properties for each utility class.
+- How to use the `tailwind.config.js` file to extend the default theme to include my own custom values.
+- Using `@layer` to include my own classes.
+- _When using pseudo elements, Tailwind will automatically add `content: ''` by default so you don’t have to specify it unless you want a different value._
 
 #
 
@@ -71,7 +73,7 @@ This is my solution to the [Blog Preview Card](https://www.frontendmentor.io/cha
 
 - [Google Webfonts Helper by Mario Ranftl](https://gwfh.mranftl.com/fonts) - Provides WOFF2 format for Google Fonts.
 
-- [PerfectPixel by WellDoneCode](https://chromewebstore.google.com/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi) - A chrome extension that enables you to overlay an image, over a webpage. This makes it easier to compare your solution result with the reference image and adjust fine details if needed.
+- [PerfectPixel by WellDoneCode](https://chromewebstore.google.com/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi) - A chrome extension that enables you to overlay an image, over a webpage. This makes it easier to spot any major differences between your result and the design.
 
 #
 
